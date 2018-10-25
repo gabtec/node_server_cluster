@@ -1,0 +1,31 @@
+{
+  "name": "node-server-cluster",
+  "version": "1.0.0",
+  "description": "A multithread (one worker per cpu core), node-express server",
+  "main": "server.js",
+  "scripts": {
+    "start": "export NODE_ENV=dev && nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabtec/node_server_cluster.git"
+  },
+  "author": "Gabriel Martins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabtec/node_server_cluster/issues"
+  },
+  "homepage": "https://github.com/gabtec/node_server_cluster#readme",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "http": "0.0.0",
+    "os": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
