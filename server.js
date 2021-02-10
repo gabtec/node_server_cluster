@@ -3,7 +3,7 @@ const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 const api = require('./app');
 
-const PORT = 8000;
+const PORT = 8001;
 
 if (cluster.isMaster) {
   console.log('Master process is running');
